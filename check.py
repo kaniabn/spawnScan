@@ -2,7 +2,7 @@ import json
 import math
 
 with open('config.json') as file:
-	config = json.load(file)
+	config = simplejson.loads(file)
 
 def calcwork():
 	totalwork = 0
