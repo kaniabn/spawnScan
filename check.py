@@ -1,8 +1,9 @@
 import json
 import math
 
-with open('config.json', 'r') as f:
-    config = json.load(f)
+with open('config.json') as file:
+	config = json.load(file)
+	print config
 
 def calcwork():
 	totalwork = 0
