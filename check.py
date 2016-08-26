@@ -1,8 +1,8 @@
-import json
+import simplejson as json
 import math
 
 with open('config.json') as file:
-	config = simplejson.loads(file)
+	config = json.loads(file)
 
 def calcwork():
 	totalwork = 0
