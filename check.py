@@ -23,7 +23,6 @@ def calcwork():
 		area += distN * distE
 	return totalwork, area
 
-load_json_file()
 tscans,tarea = calcwork()
 print 'total of {} steps covering {} km^2'.format(tscans,tarea)
 numWorkers = ((tscans-1)//config['stepsPerPassPerWorker'])+1
