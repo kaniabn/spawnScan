@@ -4,15 +4,6 @@ import math
 with open('config.json') as file:
 	config = json.load(file)
 	print config
-	
-def load_json_file('config.json'):
-    data = open('config.json', 'r').read()
-    print data
-    try:
-        return Bunch(json.loads(data))
-    except ValueError, e:
-        raise MalformedJsonFileError('%s when reading "%s"' % (str(e),
-                                                               path))
 
 def calcwork():
 	totalwork = 0
