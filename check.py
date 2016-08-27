@@ -1,7 +1,7 @@
 import json
 import math
 
-with open('configfor1.json') as file:
+with open('config.json') as file:
 	config = json.load(file)
 	print config
 
