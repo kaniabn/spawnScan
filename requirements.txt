@@ -5,6 +5,5 @@ gpsoauth==0.3.0
 protobuf-to-dict==0.1.0
 geopy==1.11.0
 geojson
-simplejson
 six
 xxhash
